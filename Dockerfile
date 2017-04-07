@@ -1,3 +1,3 @@
-FROM nginx
+FROM bdimorris/nginx_dogs:dev
 
-COPY ./ /usr/share/nginx/html
+COPY ./src/ /usr/share/nginx/html/

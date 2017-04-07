@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/img/dog.png" type="image/png">
+
+    <title>Eleanor's Dog Website</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/cover.min.css" rel="stylesheet" type="text/css">
+
+  	<style>
+		.mastfoot {
+			bottom: 0;
+			position: fixed;
+		}
+    </style>
+	
+  </head>
+
+  <body style="" onclick="history.back();return false;">
+  
+    <div class="site-wrapper">
+
+    	<div class="site-wrapper-inner">
+
+        	<div class="cover-container">
+
+          		<div class="masthead clearfix">
+            		<div class="inner">
+              			<ul class="nav masthead-nav" align="right">
+                			<li><a href="/html/index0.html">Home</a></li>
+                			<li><a href="/html/index0.html" onClick="history.back();return false;">Back</a></li>
+              			</ul>
+            		</div>
+          		</div>
+          		
+          		<div class="mastfoot">
+    				<div class="inner">
+        				<p align="right">&copy; Eleanor</p>
+       				</div>
+       			</div>
+        
+    		</div>
+    
+    	</div>
+
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="application/x-javascript"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="application/x-javascript"></script>
+	<script>
+		var QueryString = window.location.search.substring(1);
+		document.write('<style>body { background: url(/img/'+QueryString+') no-repeat center center; background-size:contain;}</style>');
+	</script>
+
+  </body>
+</html>

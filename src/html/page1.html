@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/img/dog.png" type="image/png">
+
+    <title>Eleanor's Dog Website</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/theme.min.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body role="document">
+  
+  	<style>
+		body { background: url(/img/back.jpg) center center;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover}
+    </style>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    	<div class="container">
+    		<div class="navbar-header">
+          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            	<span class="sr-only">Toggle navigation</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+          		</button>
+          		<a class="navbar-brand">Eleanor's Dogs</a>
+        	</div>
+        	<div class="navbar-collapse collapse">
+        		<ul class="nav navbar-nav">
+            		<li><a href="/html/index0.html">Home</a></li>
+            		<li class="active"><a href="/html/page1.html">Spaniels</a></li>
+           			<li><a href="/html/page2.html">Retrievers</a></li>
+					<li><a href="/html/page3.html">Setters</a></li>
+					<li><a href="/html/page4.html">Terriers</a></li>
+					<li><a href="/html/page5.html">Collies</a></li>
+            		<li class="dropdown">
+              			<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+              			<ul class="dropdown-menu">
+             	  	 		<li><a href="/html/page6.html">Hounds</a></li>
+							<li><a href="/html/page7.html">Cross Breeds</a></li>
+               		 		<li><a href="/html/page8.html">Big Dogs</a></li>
+                			<li class="divider"></li>
+                			<li class="dropdown-header">My Dogs</li>
+                			<li><a href="/html/paddy.html">Paddy</a></li>
+                			<li><a href="/html/monty.html">Monty</a></li>
+							<li><a href="/html/scout.html">Scout</a></li>
+							<li><a href="/html/lexie.html">Lexie</a></li>
+							<li><a href="/html/billy.html">Billy</a></li>
+              			</ul>
+            		</li>
+          		</ul>
+			</div>
+		</div>
+    </div>
+
+	
+	<div class="container theme-showcase" role="main">
+
+		
+		<h1 style="color: white">Spaniels</h1>
+		<div class="well">
+			<p>I love spaniels, especially springer spaniels, don't you know?!<br><br>
+			There are two different kinds of springer spaniels - English springers, and Welsh springers. Below are two pictures, one of each of the kinds of springer spaniel.</p>
+		</div>
+
+		<div align="center">
+			<img src="/img/welshie.jpg" width="200" class="img-thumbnail" id="welshie" alt="Welsh Springer Spaniel">
+			<img src="/img/english.jpg" width="200" class="img-thumbnail" id="english" alt="English Springer Spaniel">
+		</div>
+		<br>
+				
+		<div class="well">
+			<p>English springers tend to be slightly smaller than Welsh springers. Welsh springers only come in the auburn and white colour, whereas English springers come in either liver and white or black and white colours.</p>
+		</div>
+		
+		<h2 style="color: white" id="temperament">Characteristics</h2>
+		<div class="well">
+			<p>These two breeds have a friendly temperament, are good with children, and need a lot of exercise - at least 2 hours a day. If they don't get regularly exercised, they can become rather troublesome or crazy in their behaviour. If we forget to walk our springer, he just runs round the house instead which is funny but can also be annoying!<br><br>They are a medium sized compact dog, who only shed hair during spring and summer months. Usually they live for between 10 and 15 years.</p>
+		</div>
+		
+		<h2 style="color: white" id="temperament">Breed</h2>
+		<div class="well">
+			<p>They are called springers because they were originally bred to 'spring' or flush game birds from their nests up in to the air for poachers and gun sport enthusiasts to shoot them.<br><br>Along with cocker spaniels and other types of gun dogs, they are also trained to bring back shot prey in their mouth. This is hard for them as they really want to eat the bird! But their training means that they shouldn't even put their teeth through the bird's skin.</p>
+		</div>
+		
+		<div class="page-header"></div>
+		<p align="center" style="color:white">&copy; Eleanor</p>
+
+	</div>	
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="application/x-javascript"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="application/x-javascript"></script>
+    <script src="/js/docs.min.js" type="application/x-javascript"></script>
+	
+	<script>
+    	$(document).ready(function() {
+        	$('img.img-thumbnail').click(function() {
+       	     	window.location.href = '/html/img.html?' + this.id + '.jpg';
+       		});
+    	});
+	</script>
+	
+  </body>
+</html>
